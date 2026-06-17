@@ -285,21 +285,3 @@ See the LICENSE file for details.
 MSc Artificial Intelligence and Data Engineering  
 University of Pisa- Message Passing
 
----
-chat_dispatcher:chat_history().
-```
-```erlang
-```
-    "Alice",
-## Demonstration
--H "Content-Type: application/json" \
-
-mvn spring-boot:run
-### Terminal 3 – Start Spring Boot API
-net_kernel:connect_node('node1@HOSTNAME').
-
-c(chat_user).
-node_monitor:start().
-chat_user:login("Bob").
-chat_dispatcher:start().
-
